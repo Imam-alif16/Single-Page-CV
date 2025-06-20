@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 10px;
+    border: 3px solid black;
+    margin: 15px auto;
+    font-family: "Open Sans", sans-serif;
+    max-width: 50%;
+    padding: 30px 30px;
+    background-color: #f0f0f0;
+}
+
+.biodata-container h1.title {
+    color: #06202B;
+    font-size: 3.2em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.biodata-info .title {
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #077A7D;
+}
+
+.biodata-info .list p {
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    color: #06202B;
+}
+
+.biodata-info .list .headline {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 0.2em;
+    color: #00587b;
+}
+
+.biodata-info .list .sub {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 0.8em;
+    color: #00587b;
+}
+
+.biodata-info .list ul {
+    margin-bottom: 2em;
+}
+
+.biodata-info .list ul li {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 0.3em 0;
+    margin-left: 1em;
+    color: #06202B;
+}
+
+.biodata-info .social p{
+    display: inline-block;
+}
+
+.biodata-info .social a img{
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.biodata-info-card {
+    margin-bottom: 30px;
+}
